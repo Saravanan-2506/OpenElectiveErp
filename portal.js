@@ -30,3 +30,4 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
     document.getElementById("passwordError").style.display = "block";
   }
 });
+
