@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open Elective Course Selection</title>
+    <link rel="stylesheet" href="portal.css" />
+
+    <!-- Google reCAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Open Elective Course Selection</h1>
+
+      <form id="loginForm">
+        <div class="form-group">
+          <label for="email">College Email</label>
+          <input type="email" id="email" required />
+          <div id="emailError" class="error">
+            Please use your college/university email
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" required />
+          <div id="passwordError" class="error">Incorrect password</div>
+        </div>
+
+        <div class="remember-forgot">
+          <label class="remember-me">
+            <input type="checkbox" checked />
+            Remember me
+          </label>
+          <a href="#" class="forgot-password">Forgot password?</a>
+        </div>
+
+        <!-- Google reCAPTCHA -->
+        <div class="g-recaptcha" data-sitekey="6LeikbArAAAAAFebUZif8V4MElfRstpKyMyqW-Pq
+"></div>
+        <br />
+
+        <button type="submit">Sign In</button>
+      </form>
+    </div>
+    <script src="portal.js"></script>
+  </body>
+</html>
