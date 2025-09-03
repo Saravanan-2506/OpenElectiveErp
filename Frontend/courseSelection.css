@@ -4,7 +4,7 @@
 }
 .course-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 .course-card.selected {
   border-color: #3b82f6;
@@ -43,3 +43,6 @@ input[type="radio"] {
   min-width: 90px;
   text-align: center;
 }
+
+/* minor adjustments */
+#enrolledList { border-top: 1px solid #eef2ff; padding-top: 12px; margin-top: 12px; }
